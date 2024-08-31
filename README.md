@@ -41,6 +41,7 @@ Metrics used to evaluate the models were:
    * **Recall:** The proportion of actual positives that were identified correctly.
    * **ROC Curve and Area under Curve** : To see the percentage at which the top models can correctly differentiate between  the true positives and false positives.
 - Before hyperparameter tuning and y class being imbalanced the results were:
+
 | Model                   | Accuracy | Precision | Recall   | F1 Score |
 |-------------------------|----------|-----------|----------|----------|
 | Logistic Regression     | 0.768836 | 0.759247  | 0.768836 | 0.762934 |
@@ -50,6 +51,7 @@ Metrics used to evaluate the models were:
 
 - SVM showing higher results compared to the other models.
 - After hyperparameter tuning and class balancing using SMOTE algorithm:
+
 | Model                   | Accuracy | Precision | Recall   | F1 Score |
 |-------------------------|----------|-----------|----------|----------|
 | Logistic Regression    | 0.669521 | 0.759375  | 0.669521 | 0.689787 |
@@ -66,16 +68,16 @@ Metrics used to evaluate the models were:
 ### Recommendations
 Based on the analysis, the following recommendations are made:
 
-  1. Character Selection: Focus on characters that the Random Forest model predicts with a high probability of winning battles to make the movie more exciting and realistic.
-  2. Battle Scripting: Use model insights to craft compelling battles, highlighting characters' strengths and downplaying their weaknesses.
-  3. Further Analysis: Explore character combinations and team battles to add more layers of strategy and depth to the script.
+  1. **Character Selection:** Focus on characters that the Random Forest model predicts with a high probability of winning battles to make the movie more exciting and realistic.
+  2. **Battle Scripting:** Use model insights to craft compelling battles, highlighting characters' strengths and downplaying their weaknesses.
+  3. **Further Analysis:**  Explore character combinations and team battles to add more layers of strategy and depth to the script.
 
 ### Next Steps
 
- 1. Hyperparameter Tuning: Perform further hyperparameter tuning on the Random Forest model to refine its predictive accuracy.
- 2. Feature Engineering: Create new features or transform existing ones (like interaction terms between attributes) to improve model performance.
- 3. Model Ensemble: Consider an ensemble approach combining predictions from multiple models to increase robustness and accuracy.
- 4. Deploy the Model: Develop an interactive tool for scriptwriters and directors to use, enabling them to simulate battles and explore different character matchups based on data-driven predictions.
+ 1. **Hyperparameter Tuning:** Perform further hyperparameter tuning on the Random Forest model to refine its predictive accuracy.
+ 2. **Feature Engineering:** Create new features or transform existing ones (like interaction terms between attributes) to improve model performance.
+ 3. **Model Ensemble:** Consider an ensemble approach combining predictions from multiple models to increase robustness and accuracy.
+ 4. **Deploy the Model:** Develop an interactive tool for scriptwriters and directors to use, enabling them to simulate battles and explore different character matchups based on data-driven predictions.
 
  ## Thank you !!!
 
